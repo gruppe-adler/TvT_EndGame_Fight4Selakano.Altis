@@ -1,5 +1,4 @@
-author = "Name für Gruppe Adler";   //mission author
-onLoadName = "ENDGAME TEMPLATE";    //mission name
+onLoadName = "EG - FIGHT4SELAKANO";    //mission name
 onLoadMission = "";                 //description in loadscreen
 loadScreen = "data\loadpic.paa";    //picture in loadscreen
 
