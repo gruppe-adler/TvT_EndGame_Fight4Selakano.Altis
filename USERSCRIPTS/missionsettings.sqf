@@ -1,3 +1,4 @@
+author = "XiviD & McDiod für Gruppe Adler";   //mission author
 onLoadName = "EG - FIGHT4SELAKANO";    //mission name
 onLoadMission = "";                 //description in loadscreen
 loadScreen = "data\loadpic.paa";    //picture in loadscreen
