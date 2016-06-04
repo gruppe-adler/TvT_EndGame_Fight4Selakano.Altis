@@ -1,5 +1,11 @@
 #include "USERSCRIPTS\missionsettings.sqf";
 
+//ENGIMA TRAFFIC ===============================================================
+CIVILIAN_TRAFFIC = paramsArray select 2;
+if (CIVILIAN_TRAFFIC == 1) then {
+  [] execVM "Engima\Traffic\Init.sqf";
+};
+
 //SERVER ONLY ==================================================================
 if (isServer) then {
 
@@ -40,14 +46,3 @@ if (isServer) then {
   [] execVM "server\endInDraw.sqf";
 
 };
-
-
-  //read param
-  CIVILIAN_TRAFFIC = paramsArray select 0;
-
-
-
-  if (CIVILIAN_TRAFFIC == 1) then {
-    [] execVM "Engima\Traffic\Init.sqf";
-  };
-
