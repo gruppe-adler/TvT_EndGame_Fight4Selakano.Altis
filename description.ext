@@ -33,6 +33,14 @@ class Params
 		texts[] = {"Yes", "No"};
 		default = false;
 	};
+	class CIVILIAN_TRAFFIC
+  	{
+    title = "Civilian Traffic";
+    values[] = {0, 1};
+    texts[] =  {"False", "True"};
+    default = 0;
+ 	};
+
 };
 
 class CfgTaskEnhancements
