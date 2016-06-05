@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=336;
+		nextID=351;
 	};
 	class Camera
 	{
@@ -877,7 +877,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=10;
+							value=300;
 						};
 					};
 				};
@@ -8935,7 +8935,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={21007.986,28.040161,7121.1934};
-			angle=0.44688097;
+			angle=0.44688094;
 			class Attributes
 			{
 				sizeA=500;
@@ -40675,20 +40675,20 @@ class Mission
 								angles[]={0,1.7450526,0};
 							};
 							side="Independent";
-							flags=7;
+							flags=3;
 							class Attributes
 							{
 							};
 							id=2547;
 							type="rhsgref_nat_rifleman";
-							atlOffset=1.5258789e-005;
+							atlOffset=3.5647945;
 						};
 					};
 					class Attributes
 					{
 					};
 					id=2546;
-					atlOffset=1.5258789e-005;
+					atlOffset=3.5647945;
 				};
 				class Item8
 				{
@@ -40706,18 +40706,20 @@ class Mission
 								angles[]={0,3.7256739,0};
 							};
 							side="Independent";
-							flags=7;
+							flags=3;
 							class Attributes
 							{
 							};
 							id=2549;
 							type="rhsgref_nat_rifleman_m92";
+							atlOffset=3.5932655;
 						};
 					};
 					class Attributes
 					{
 					};
 					id=2548;
+					atlOffset=3.5932655;
 				};
 				class Item9
 				{
@@ -42773,7 +42775,7 @@ class Mission
 			};
 			id=2659;
 			type="Land_Misc_deerstand";
-			atlOffset=-1.3590012;
+			atlOffset=-1.3591232;
 		};
 		class Item742
 		{
@@ -42790,7 +42792,7 @@ class Mission
 			};
 			id=2692;
 			type="rhsgref_nat_van";
-			atlOffset=-0.12502289;
+			atlOffset=-0.12493896;
 		};
 		class Item743
 		{
@@ -43843,6 +43845,7 @@ class Mission
 			};
 			id=2768;
 			type="rhsgref_nat_van_fuel";
+			atlOffset=-0.00019454956;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43883,6 +43886,7 @@ class Mission
 			};
 			id=2769;
 			type="rhsgref_nat_van";
+			atlOffset=0.0001411438;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44950,6 +44954,7 @@ class Mission
 			};
 			id=2799;
 			type="rhsgref_nat_2b14";
+			atlOffset=-0.00019073486;
 		};
 	};
 	class Connections
