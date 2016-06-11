@@ -44,7 +44,6 @@ if (isServer) then {
   [] execVM "server\objLockAndClear.sqf";
   [] execVM "server\transportHelis.sqf";
   [] execVM "fillContainerInit.sqf";
-
   [] execVM "server\civKillListener.sqf";
   [] execVM "server\civGunfightListener.sqf";
 

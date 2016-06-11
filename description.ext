@@ -34,14 +34,14 @@ class Params
 		texts[] = {"Yes", "No"};
 		default = false;
 	};
-	class CIVILIAN_TRAFFIC
-  	{
-    title = "Civilian Traffic";
-    values[] = {0, 1};
-    texts[] =  {"False", "True"};
-    default = 1;
- 	};
 
+	class civiliantraffic
+		{
+		title = "Civilian Traffic";
+		values[] = {0, 1};
+		texts[] =  {"False", "True"};
+		default = 0;
+	};
 };
 
 class CfgSounds
@@ -50,9 +50,7 @@ class CfgSounds
 	class signal_lost
 	{
 		name = "signal_lost";
-		// filename, volume, pitch
 		sound[] = {"data\signal_lost.ogg", 1, 1};
-		// subtitle delay in seconds, subtitle text
 		titles[] = {0, ""};
 	};
 };
